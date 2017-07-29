@@ -1,4 +1,4 @@
-package com.example.florim.a_keni_ligjerata;
+package com.grasslever.florim.a_keni_ligjerata;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

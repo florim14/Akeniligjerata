@@ -1,4 +1,4 @@
-package com.example.florim.a_keni_ligjerata;
+package com.grasslever.florim.a_keni_ligjerata;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

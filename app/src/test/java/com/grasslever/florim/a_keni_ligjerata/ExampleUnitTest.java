@@ -1,4 +1,4 @@
-package com.example.florim.a_keni_ligjerata;
+package com.grasslever.florim.a_keni_ligjerata;
 
 import org.junit.Test;
 
