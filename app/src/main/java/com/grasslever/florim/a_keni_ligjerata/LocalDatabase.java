@@ -17,7 +17,7 @@ import java.util.Locale;
  * Created by ${USER} on ${DATE}
  */
 
-class DBHelper extends SQLiteOpenHelper {
+class LocalDatabase extends SQLiteOpenHelper {
     private static final String DB_NAME = "akeniligjerata.db";
     private static final int DB_VERSION = 1;
 
@@ -29,7 +29,7 @@ class DBHelper extends SQLiteOpenHelper {
     private static final String SCHEDULE_COLUMN_STARTTIME = "starttime";
     private static final String SCHEDULE_COLUMN_ENDTIME = "endtime";
 
-    public DBHelper(Context context) {
+    public LocalDatabase(Context context) {
         super(context, DB_NAME , null, DB_VERSION);
     }
 

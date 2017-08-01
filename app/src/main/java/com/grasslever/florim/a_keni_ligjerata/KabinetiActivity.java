@@ -5,11 +5,11 @@ import android.os.Bundle;
 
 //import com.grasslever.florim.a_keni_ligjerata.R;
 
-public class Class extends AppCompatActivity {
+public class KabinetiActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_class);
+        setContentView(R.layout.activity_kabineti);
     }
 }
