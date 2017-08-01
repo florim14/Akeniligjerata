@@ -16,9 +16,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".Class" />
+        <activity android:name=".Kabineti" />
+        <activity android:name=".Kati5Activity" />
+        <activity android:name=".Kati6Activity" />
+        <activity android:name=".Kati7Activity"></activity>
+
         <activity android:name=".Kati2Activity" />
         <activity android:name=".Kati3Activity" />
         <activity android:name=".Kati4Activity"></activity>
+
     </application>
 
 </manifest>
