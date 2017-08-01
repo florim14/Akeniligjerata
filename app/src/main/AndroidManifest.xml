@@ -17,8 +17,8 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".Class" />
-        <activity android:name=".Kabineti" />
+        <activity android:name=".KlasaActivity" />
+        <activity android:name=".KabinetiActivity" />
         <activity android:name=".Kati5Activity" />
         <activity android:name=".Kati6Activity" />
         <activity android:name=".Kati7Activity"></activity>
