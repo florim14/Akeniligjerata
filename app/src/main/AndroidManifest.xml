@@ -9,12 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.grasslever.florim.a_keni_ligjerata.MainActivity">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Class" />
+        <activity android:name=".Kabineti" />
+        <activity android:name=".Kati5Activity" />
+        <activity android:name=".Kati6Activity" />
+        <activity android:name=".Kati7Activity"></activity>
     </application>
 
 </manifest>
