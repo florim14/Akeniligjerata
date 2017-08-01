@@ -9,23 +9,20 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".KlasaActivity" />
+        <activity android:name=".KabinetiActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <activity android:name=".KlasaActivity" />
-        <activity android:name=".KabinetiActivity" />
         <activity android:name=".Kati5Activity" />
         <activity android:name=".Kati6Activity" />
-        <activity android:name=".Kati7Activity"></activity>
-
+        <activity android:name=".Kati7Activity" />
         <activity android:name=".Kati2Activity" />
         <activity android:name=".Kati3Activity" />
-        <activity android:name=".Kati4Activity"></activity>
+        <activity android:name=".Kati4Activity" />
 
     </application>
 
