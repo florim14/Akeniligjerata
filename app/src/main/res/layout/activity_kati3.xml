@@ -6,4 +6,9 @@
     android:layout_height="match_parent"
     tools:context="com.grasslever.florim.a_keni_ligjerata.Kati3Activity">
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@mipmap/kati3"/>
+
 </android.support.constraint.ConstraintLayout>
