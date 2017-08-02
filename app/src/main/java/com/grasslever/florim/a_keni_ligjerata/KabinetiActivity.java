@@ -1,8 +1,10 @@
 package com.grasslever.florim.a_keni_ligjerata;
 
+import android.app.Activity;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.FrameLayout;
 
 import com.vansuita.materialabout.builder.AboutBuilder;
 import com.vansuita.materialabout.views.AboutView;
@@ -11,9 +13,16 @@ import com.vansuita.materialabout.views.AboutView;
 
 public class KabinetiActivity extends AppCompatActivity {
 
+    private Activity activity;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_kabineti);
+
+        activity = this;
+        final FrameLayout flHolder = (FrameLayout) activity.findViewById(R.id.about);
 
         AboutView view = AboutBuilder.with(this)
                 .setPhoto(R.mipmap.profile_picture)
@@ -34,6 +43,6 @@ public class KabinetiActivity extends AppCompatActivity {
                 .setShowAsCard(true)
                 .build();
 
-        addContentView(view, view.getLayoutParams());
+        addContentView(view, flHolder.getLayoutParams());
     }
 }
