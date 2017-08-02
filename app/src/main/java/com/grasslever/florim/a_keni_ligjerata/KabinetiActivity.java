@@ -13,16 +13,13 @@ import com.vansuita.materialabout.views.AboutView;
 
 public class KabinetiActivity extends AppCompatActivity {
 
-    private Activity activity;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_kabineti);
-
-        activity = this;
+        Activity activity = this;
         final FrameLayout flHolder = (FrameLayout) activity.findViewById(R.id.about);
+        setContentView(R.layout.activity_kabineti);
 
         AboutView view = AboutBuilder.with(this)
                 .setPhoto(R.mipmap.profile_picture)

@@ -11,7 +11,8 @@
         android:theme="@style/AppTheme">
         <activity android:name=".KabinetiActivity"/>
         <activity android:name=".KlasaActivity" />
-        <activity android:name=".MainActivity" >
+        <activity android:name=".MainActivity"
+            android:label="Fakultetet">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
