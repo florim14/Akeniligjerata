@@ -82,7 +82,7 @@ public class MainActivity extends AppCompatActivity {
                         break;
                     case 11: Toast.makeText(getApplicationContext(), Slecteditem, Toast.LENGTH_SHORT).show();
                         break;
-                    default: Toast.makeText(getApplicationContext(), "Wrond item selected!", Toast.LENGTH_SHORT).show();
+                    default: Toast.makeText(getApplicationContext(), "Wrong item selected!", Toast.LENGTH_SHORT).show();
                         break;
                 }
 
